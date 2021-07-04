@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Ryan's Favourite Chrome Extension",
+    "version": "1.0",
+    "description": "Ryan is going to regret asking me to do this stream.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+      ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {}
+}
